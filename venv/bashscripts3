@@ -4,10 +4,10 @@ if [ "$1" == "Sasha" ]; then
 	echo "QQ $1"
 elif [ "$1" == "Alex" ]; then
 	echo "BB $1"
-else echo "AMD better))"
+else echo "AMD better $1))"
 fi #fi нужен если скрипт начинается на if, fi типо наоборот.
 
-x=$2
+read -p "enter чтото)" x
 
 echo "Starting...."
 case $x in
