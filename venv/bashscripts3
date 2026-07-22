@@ -1,0 +1,18 @@
+#!/bin/bash
+
+if [ "$1" == "Sasha" ]; then
+	echo "QQ $1"
+elif [ "$1" == "Alex" ]; then
+	echo "BB $1"
+else echo "AMD better $1))"
+fi #fi нужен если скрипт начинается на if, fi типо наоборот.
+
+read -p "enter чтото)" x
+
+echo "Starting...."
+case $x in
+	1) echo "this is one";;
+	[2-9]) echo "Two-Nine";;
+	"Petro") echo "123";;
+	*) echo "321"
+esac #case наоборот
